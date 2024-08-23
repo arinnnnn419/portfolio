@@ -1,0 +1,59 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #c5aadf;
+}
+
+#projects {
+  background-color: #c5aadf;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: #37b7c3; /* Ganti dengan warna yang diinginkan */
+}
+
+/* Item Navbar */
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #c35137; /* Warna berubah saat hover */
+  transform: translateY(-3px); /* Gerakkan item sedikit ke atas saat hover */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #e1f7f5;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease; /* Animasi garis */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Garis muncul saat hover */
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; /* Garis muncul saat hover */
+}
